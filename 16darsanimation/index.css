@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con{
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    background: yellow;
+    border: 3px solid red;
+  transition: 0.5s;
+  transition-property: width, fon-size, border, border-radius, color,;
+}
+.con:hover{
+    transition-duration: 0.2s;
+    transform: rotate(360deg);
+    border-radius: 50%;
+    background-color:green ;
+    border: 40px dashed yellow;
+    /* transition-delay: 2s; */
+    transform: rotate(360deg);
+}
